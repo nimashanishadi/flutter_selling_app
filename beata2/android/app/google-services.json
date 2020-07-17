@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "273344974107",
+    "firebase_url": "https://beata2-14334.firebaseio.com",
+    "project_id": "beata2-14334",
+    "storage_bucket": "beata2-14334.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273344974107:android:5b64fd7e169453672717be",
+        "android_client_info": {
+          "package_name": "com.example.beata2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273344974107-pjdu10ntu83vrvos5lcrbv7h48ap6di3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beata2",
+            "certificate_hash": "85061ab76f05ba346b21a7007beee3b0431f0e58"
+          }
+        },
+        {
+          "client_id": "273344974107-2f8er593c4tlris23bt70rfg6kgc0hkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8BspOsW5NqrpKJ5L1cT9t1Xwj_tJVPiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273344974107-2f8er593c4tlris23bt70rfg6kgc0hkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
