@@ -1,9 +1,9 @@
+import 'package:beata2/ui/second_screen.dart';
 import 'package:beata2/ui/sign_in.dart';
 import 'package:flutter/material.dart';
 
-import 'first_screen.dart';
-
 class LoginPage extends StatefulWidget {
+  static const String routeName = "/login";
   @override
   _LoginPageState createState() => _LoginPageState();
 }
@@ -34,13 +34,7 @@ class _LoginPageState extends State<LoginPage> {
       splashColor: Colors.grey,
       onPressed: () {
         signInWithGoogle().whenComplete(() {
-          Navigator.of(context).push(
-            MaterialPageRoute(
-              builder: (context) {
-                return FirstScreen();
-              },
-            ),
-          );
+          Navigator.pushReplacementNamed(context, SecondScreen.routeName);
         });
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
